@@ -1,0 +1,100 @@
+#top-jumbo {
+  padding: 0 0 400px;
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 34%, #9d5ff4 65%, #ebb1ed 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #ffffff 0%,
+    #ffffff 34%,
+    #9d5ff4 65%,
+    #ebb1ed 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #ffffff 34%,
+    #9d5ff4 65%,
+    #ebb1ed 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#top-jumbo .left-side {
+  width: 40%;
+}
+
+#top-jumbo .left-side .large-number {
+  font-size: 250px;
+  font-weight: 700;
+  opacity: 0.1;
+  color: #4e45c7;
+  position: relative;
+  left: -17px;
+  top: 30px;
+  z-index: 1;
+}
+
+#top-jumbo .left-side .info-container {
+  position: relative;
+  top: -85px;
+}
+
+#top-jumbo .left-side .info-container h1 {
+  font-size: 4rem;
+  color: #7277f3;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+#top-jumbo .left-side .info-container p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #aaacaf;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+
+#top-jumbo .left-side .info-container .email-area {
+  background: white;
+  border-radius: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 6px 6px 20px;
+}
+
+#top-jumbo .left-side .info-container .email-area .far {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+#top-jumbo .left-side .info-container .email-area input {
+  flex-grow: 2;
+  border: 0 solid white;
+  font-size: 14px;
+}
+
+#top-jumbo .left-side .info-container .email-area input:focus {
+  outline: none;
+}
+
+#top-jumbo .left-side .info-container .email-area button {
+  background: #7277f3;
+  border-radius: 35px;
+  border: 0;
+  text-transform: uppercase;
+  color: white;
+  padding: 18px 35px;
+  /* font-weight: 600; */
+  font-size: 14px;
+}
+
+#top-jumbo .right-side {
+  width: 60%;
+  margin-top: 20px;
+}
+
+#top-jumbo .right-side img {
+  width: 100%;
+}

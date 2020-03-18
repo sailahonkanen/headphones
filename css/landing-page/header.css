@@ -1,0 +1,43 @@
+header {
+  padding: 30px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin: 0 5%;
+}
+
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+header .menu {
+  color: #7277F3;
+}
+
+header .header-buttons .blue-btn {
+  background: #7277F3;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 35px;
+  margin-right: 10px;
+}
+
+header .header-buttons .blue-btn .fas {
+  margin-left: 10px;
+}
+
+header .header-buttons .orange-btn {
+  background: #fea83b;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 35px;
+}

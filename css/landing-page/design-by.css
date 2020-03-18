@@ -1,0 +1,140 @@
+#design-by {
+  position: relative;
+  top: -250px;
+}
+
+#design-by .design-by-container {
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  background: #4e45c7;
+  overflow: hidden;
+}
+
+#design-by .design-by-container .bg-image {
+  position: absolute;
+  width: 500px;
+  z-index: 0;
+  opacity: 0.2;
+  left: 130px;
+  top: -80px;
+}
+
+#design-by .design-by-container .info-section {
+  width: 45%;
+  border-radius: 5px 0 0 5px;
+  padding: 35px 30px 50px 40px;
+  position: relative;
+  z-index: 2;
+}
+
+#design-by .design-by-container .info-section h5 {
+  color: #fea83b;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+#design-by .design-by-container .info-section h3 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+#design-by .design-by-container .info-section .info-list {
+  margin-bottom: 70px;
+}
+
+#design-by .design-by-container .info-section .info-list li {
+  list-style: none;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#design-by .design-by-container .info-section .info-list .circle {
+  background: #fea83b;
+  border-radius: 50%;
+  min-height: 25px;
+  min-width: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+#design-by .design-by-container .info-section .info-list .circle .fas {
+  color: white;
+  align-self: center;
+  font-size: 15px;
+}
+
+#design-by .design-by-container .info-section .info-button {
+  background: white;
+  color: #7277f3;
+  text-decoration: none;
+  border-radius: 35px;
+  text-transform: uppercase;
+  padding: 16px 70px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#design-by .design-by-container .icons-section {
+  width: 55%;
+  background: white;
+  border-radius: 0 5px 5px 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#design-by .design-by-container .icons-section .refresh-circle {
+  position: absolute;
+  left: 50%;
+  margin-left: -27.5px;
+  top: 50%;
+  margin-top: -27.5px;
+  font-size: 30px;
+  color: #fea83b;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#design-by .design-by-container .icons-section .refresh-circle .fas {
+    align-self: center;
+}
+
+#design-by .design-by-container .icons-section .icon-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #7277f3;
+  text-transform: uppercase;
+  border: 1px solid #f4f5f7;
+}
+
+#design-by .design-by-container .icons-section .icon-box .fas, .far {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#design-by .design-by-container .icons-section .icon-box .title {
+  font-weight: 600;
+  font-size: 14px;
+}
