@@ -5,6 +5,7 @@
 
 #design-by .design-by-container {
   display: flex;
+  flex-flow: row wrap;
   width: 100%;
   border-radius: 5px;
   position: relative;
@@ -129,7 +130,7 @@
   border: 1px solid #f4f5f7;
 }
 
-#design-by .design-by-container .icons-section .icon-box .fas, .far {
+#design-by .design-by-container .icons-section .icon-box .fas, #design-by .design-by-container .icons-section .icon-box .far {
   font-size: 40px;
   margin-bottom: 20px;
 }
@@ -137,4 +138,36 @@
 #design-by .design-by-container .icons-section .icon-box .title {
   font-weight: 600;
   font-size: 14px;
+}
+
+/* LAPTOPS DEVICES */
+@media only screen and (max-width: 1215px) {
+
+}
+
+/* TABLETS DEVICES */
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+
+  #design-by .design-by-container .info-section {
+    width: 100%;
+    padding: 25px 25px 40px 25px;
+  }
+
+  #design-by .design-by-container .icons-section {
+    width: 100%;
+  }
+
+  #design-by .design-by-container .icons-section .icon-box {
+    padding: 40px;
+  }
+
+  #design-by .design-by-container .icons-section .refresh-circle {
+    display: none;
+  }
+
 }

@@ -3,7 +3,7 @@ header {
   font-size: 14px;
   font-weight: 600;
   display: flex;
-  flex-direction: row;
+  flex-direction: row wrap;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
@@ -20,11 +20,15 @@ header .logo img {
 }
 
 header .menu {
-  color: #7277F3;
+  color: #7277f3;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 40%;
 }
 
 header .header-buttons .blue-btn {
-  background: #7277F3;
+  background: #7277f3;
   color: white;
   padding: 12px 30px;
   border-radius: 35px;
@@ -40,4 +44,29 @@ header .header-buttons .orange-btn {
   color: white;
   padding: 12px 40px;
   border-radius: 35px;
+}
+
+/* LAPTOPS DEVICES */
+@media only screen and (max-width: 1215px) {
+}
+
+/* TABLETS DEVICES */
+@media only screen and (max-width: 1023px) {
+}
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 840px) {
+  header {
+    flex-flow: column wrap;
+    align-items: flex-start;
+  }
+  header .menu {
+    flex-flow: column wrap;
+    width: 100%;
+    margin: 20px 0 30px;
+  }
+
+  header .menu a {
+    margin-bottom: 10px;
+  }
 }

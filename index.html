@@ -5,7 +5,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Headphones</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/f4c2c95da9.js" crossorigin="anonymous"></script>
@@ -18,7 +17,7 @@
             <div class="logo">
                 <img src="img/logo.png" alt="Logo">
             </div>
-            <div class="menu">
+            <div class="menu" id="topnav">
                 <a href="#">Features</a>
                 <a href="#">Gallery</a>
                 <a href="#">Tech Spec</a>
@@ -148,6 +147,7 @@
             </div>
         </div>
     </section>
+
     <section id="blue-print">
         <div class="container">
             <div class="left-side">
@@ -162,7 +162,9 @@
                 <div class="info-box">
                     <div class="col-1">
                         <div class="icon-container">
-                            <i class="fab fa-bluetooth-b"></i>
+                            <div class="dashed-circle">
+                                <i class="fab fa-bluetooth-b"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="col-2">
@@ -174,7 +176,9 @@
                 <div class="info-box">
                     <div class="col-1">
                         <div class="icon-container">
-                            <i class="fas fa-microphone"></i>
+                            <div class="dashed-circle">
+                                <i class="fas fa-microphone"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="col-2">
@@ -186,6 +190,111 @@
             </div>
         </div>
     </section>
+
+    <section id="latest">
+        <div class="container">
+            <div class="header">
+                <h1>Our latest headphones</h1>
+                <div class="directions">
+                    <i class="fas fa-chevron-left"></i>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="body">
+                <div class="column">
+                    <div class="bg-square">
+                        <img src="img/headphones-orange.png" alt="">
+                        <div class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="price">
+                        € 400
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="bg-square">
+                        <img src="img/headphones-blue.png" alt="">
+                        <div class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="price">
+                        € 400
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="bg-square">
+                        <img src="img/headphones-purple.png" alt="">
+                        <div class="cart">
+                            <i class="fas fa-cart-plus"></i>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="price">
+                        € 400
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <img src="img/headphones.png" alt="">
+                <div class="info-box">
+                    <h2>Say Hello to Us</h2>
+                    <form class="contact-form">
+                        <div class="input-area box-shadow-down">
+                            <i class="fas fa-user"></i>
+                            <input type="text" name="name" placeholder="Write your name">
+                        </div>
+                        <div class="input-area box-shadow-down">
+                            <i class="far fa-envelope"></i>
+                            <input type="email" name="email" placeholder="Write your email">
+                            <button type="submit" name="button" class="box-shadow-down">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h2><span>Comfort</span> and Materials</h2>
+            <ul class="menu">
+                <li>
+                    <a href="#">Features</a>
+                </li>
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+                <li>
+                    <a href="#">Tech Spec</a>
+                </li>
+                <li>
+                    <a href="#">Support</a>
+                </li>
+            </ul>
+            <p>&#169; 2020 Bass. All rights reserved.</p>
+            <ul class="social-media">
+                <li>
+                    <a href="#" target="new">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="new">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="new">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 

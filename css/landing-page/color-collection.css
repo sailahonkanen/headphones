@@ -1,5 +1,10 @@
 #color-collection {
-  padding: 0 50px 100px 50px;
+  padding: 0 50px 170px 50px;
+}
+
+#color-collection .container{
+  display: flex;
+  flex-flow: row wrap;
 }
 
 #color-collection .left-side {
@@ -10,11 +15,13 @@
 
 #color-collection .left-side img {
   width: 100%;
+  align-self: center;
 }
 
 #color-collection .right-side {
   width: 50%;
   display: flex;
+
 }
 
 #color-collection .right-side .col-1 {
@@ -194,4 +201,40 @@
   position: absolute;
   top: 46px;
   left: -10px;
+}
+
+/* LAPTOPS DEVICES */
+@media only screen and (max-width: 1215px) {
+
+}
+
+/* TABLETS DEVICES */
+@media only screen and (max-width: 1023px) {
+
+  #color-collection {
+    padding: 100px 0 0;
+  }
+
+  #color-collection {
+    position: relative;
+    top: -150px;
+  }
+}
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+
+  #color-collection .left-side {
+    width: 100%;
+  }
+
+  #color-collection .left-side img {
+    width: 80%;
+  }
+
+  #color-collection .right-side {
+    width: 100%;
+    align-items: center;
+  }
+
 }
